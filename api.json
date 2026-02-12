@@ -1,0 +1,903 @@
+{
+  "category": "ANOMALY",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/bermuda-triangle",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "bermuda-triangle",
+    "name": "Bermuda Triangle",
+    "aliases": [
+      {
+        "name": "Devil's Triangle",
+        "region": "Atlantic Ocean",
+        "meaning": "Alternative popular name emphasizing mysterious nature"
+      },
+      {
+        "name": "Limbo of the Lost",
+        "region": "Atlantic Ocean",
+        "meaning": "Term used in early literature"
+      },
+      {
+        "name": "Hoodoo Sea",
+        "region": "Atlantic Ocean",
+        "meaning": "Historical maritime term"
+      },
+      {
+        "name": "Triangle of Death",
+        "region": "Atlantic Ocean",
+        "meaning": "Sensationalized media term"
+      }
+    ],
+    "category": "ANOMALY",
+    "subcategory": "Geographic Anomaly",
+    "tags": [
+      "oceanic",
+      "disappearances",
+      "navigation-anomaly",
+      "maritime",
+      "aviation",
+      "atlantic-ocean",
+      "electromagnetic-anomaly"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A loosely defined region in the western North Atlantic Ocean where ships and aircraft have allegedly disappeared under mysterious circumstances. The area roughly forms a triangle between Miami, Bermuda, and Puerto Rico.",
+      "full": "The Bermuda Triangle is a region in the western Atlantic Ocean where numerous ships and aircraft have disappeared under circumstances that have been characterized as mysterious or unexplained. The term was coined by writer Vincent Gaddis in 1964. The boundaries of the triangle cover approximately 500,000 square miles of ocean between Miami (Florida), Bermuda, and San Juan (Puerto Rico). Reports include compass malfunctions, electronic failures, unusual weather phenomena, and complete disappearances without distress signals. While many attribute these incidents to paranormal or extraterrestrial causes, skeptics point to statistical analysis, human error, and natural oceanographic and meteorological phenomena as explanations. The U.S. Coast Guard and other maritime authorities do not recognize the Bermuda Triangle as particularly hazardous compared to other heavily-traveled ocean regions."
+    },
+    "etymology": {
+      "origin": "The term 'Bermuda Triangle' was coined by writer Vincent Gaddis in a 1964 article for Argosy magazine titled 'The Deadly Bermuda Triangle.'",
+      "meaning": "Named for the triangular area defined by three geographic points: Miami, Bermuda, and Puerto Rico",
+      "first_use": "1964"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ANOMALY",
+      "type": "Geographic Anomaly",
+      "subtype": "Oceanic/Maritime",
+      "variant": "Atlantic Ocean"
+    },
+    "related_phenomena": [
+      {
+        "id": "time-slips",
+        "name": "Time Slips",
+        "relationship": "associated",
+        "description": "Reports of temporal anomalies and time distortions in the region"
+      },
+      {
+        "id": "ufo-phenomena",
+        "name": "UFO Phenomena",
+        "relationship": "associated",
+        "description": "Alleged USO (Unidentified Submerged Objects) and UFO sightings"
+      },
+      {
+        "id": "devils-sea",
+        "name": "Devil's Sea (Dragon's Triangle)",
+        "relationship": "similar",
+        "description": "Pacific Ocean region near Japan with similar reported phenomena"
+      },
+      {
+        "id": "michigan-triangle",
+        "name": "Michigan Triangle",
+        "relationship": "similar",
+        "description": "Lake Michigan region with alleged disappearances"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "area": {
+        "size": 500000,
+        "unit": "square_miles",
+        "precision": "approximate"
+      },
+      "boundaries": [
+        {
+          "point": "Miami, Florida",
+          "coordinates": {
+            "latitude": 25.7617,
+            "longitude": -80.1918
+          }
+        },
+        {
+          "point": "San Juan, Puerto Rico",
+          "coordinates": {
+            "latitude": 18.4655,
+            "longitude": -66.1057
+          }
+        },
+        {
+          "point": "Bermuda",
+          "coordinates": {
+            "latitude": 32.3078,
+            "longitude": -64.7505
+          }
+        }
+      ],
+      "features": [
+        {
+          "feature": "Puerto Rico Trench",
+          "description": "Deepest point in Atlantic Ocean (8,376 meters), part of triangle region",
+          "significance": "Makes recovery of wreckage extremely difficult"
+        },
+        {
+          "feature": "Gulf Stream",
+          "description": "Powerful ocean current flowing through the region",
+          "significance": "Can quickly disperse wreckage and bodies"
+        },
+        {
+          "feature": "Methane hydrate deposits",
+          "description": "Underwater deposits that can release gas bubbles",
+          "significance": "Theoretical explanation for some sinkings"
+        },
+        {
+          "feature": "Magnetic anomalies",
+          "description": "One of few places where true north and magnetic north align",
+          "significance": "Can cause compass confusion if not properly compensated"
+        }
+      ]
+    },
+    "reported_phenomena": [
+      {
+        "phenomenon": "Complete disappearances",
+        "description": "Vessels vanishing without distress signals or debris",
+        "frequency": "varies",
+        "evidence_level": "documented"
+      },
+      {
+        "phenomenon": "Compass malfunctions",
+        "description": "Navigation instruments showing erratic readings",
+        "frequency": "occasional",
+        "evidence_level": "documented"
+      },
+      {
+        "phenomenon": "Electronic failures",
+        "description": "Radio, radar, and electrical systems failing simultaneously",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      },
+      {
+        "phenomenon": "Time anomalies",
+        "description": "Pilots reporting time loss or temporal distortions",
+        "frequency": "rare",
+        "evidence_level": "anecdotal"
+      },
+      {
+        "phenomenon": "Unusual cloud formations",
+        "description": "Hexagonal clouds and sudden fog banks",
+        "frequency": "occasional",
+        "evidence_level": "documented"
+      },
+      {
+        "phenomenon": "Waterspouts",
+        "description": "Frequent waterspout formation in the region",
+        "frequency": "common",
+        "evidence_level": "documented"
+      }
+    ],
+    "environmental_factors": {
+      "weather": [
+        "Frequent tropical storms and hurricanes",
+        "Sudden weather changes",
+        "Waterspouts",
+        "Microbursts and downdrafts"
+      ],
+      "oceanography": [
+        "Powerful Gulf Stream current",
+        "Deep ocean trenches",
+        "Shallow reefs and shoals",
+        "Rogue waves"
+      ],
+      "geophysics": [
+        "Magnetic variation phenomena",
+        "Possible methane gas eruptions",
+        "Underwater seismic activity"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Western Atlantic Ocean, roughly bounded by Miami (Florida), Bermuda, and San Juan (Puerto Rico). Some definitions extend the boundaries further.",
+      "ocean": "Atlantic Ocean",
+      "region": "Western North Atlantic",
+      "area_sq_miles": 500000
+    },
+    "incident_hotspots": [
+      {
+        "name": "Flight 19 area",
+        "location": {
+          "description": "East of Florida coast",
+          "coordinates": {
+            "latitude": 26.0,
+            "longitude": -77.0,
+            "precision": "approximate"
+          }
+        },
+        "incident_count": "1+ major",
+        "notes": "Site of famous 1945 Flight 19 disappearance"
+      },
+      {
+        "name": "Puerto Rico Trench area",
+        "location": {
+          "description": "North of Puerto Rico",
+          "coordinates": {
+            "latitude": 19.8,
+            "longitude": -66.5,
+            "precision": "approximate"
+          }
+        },
+        "incident_count": "Multiple",
+        "notes": "Deepest part of Atlantic, numerous disappearances"
+      },
+      {
+        "name": "Bahamas region",
+        "location": {
+          "description": "Shallow waters and reefs",
+          "coordinates": {
+            "latitude": 24.5,
+            "longitude": -77.5,
+            "precision": "approximate"
+          }
+        },
+        "incident_count": "Multiple",
+        "notes": "Treacherous navigation due to reefs and shallow waters"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1492",
+        "circa": true,
+        "source": "Christopher Columbus noted compass anomalies"
+      },
+      "peak_media_period": {
+        "period": "1960s-1980s",
+        "description": "Height of popular interest following Gaddis article and books by Berlitz"
+      },
+      "modern_status": "Remains heavily traveled shipping and aviation route with ongoing incidents"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Maritime folklore of mysterious disappearances in the area dates back centuries. Spanish sailors reported strange occurrences as early as Columbus's voyages.",
+      "earliest_accounts": "Christopher Columbus (1492) reported compass irregularities and strange lights. Various ship disappearances documented throughout colonial period.",
+      "folklore_connections": "Connected to legends of Atlantis, sea monsters, and other maritime mysteries."
+    },
+    "timeline": [
+      {
+        "date": "1492-10",
+        "event": "Columbus reports anomalies",
+        "significance": "First documented report of compass malfunction in the region",
+        "source": "Columbus's log"
+      },
+      {
+        "date": "1800s",
+        "event": "Numerous ship disappearances",
+        "significance": "Multiple vessels lost in region during age of sail, often attributed to piracy and weather",
+        "source": "Maritime records"
+      },
+      {
+        "date": "1918-03",
+        "event": "USS Cyclops disappears",
+        "significance": "Largest loss of life in U.S. Navy history not related to combat; 306 people vanished",
+        "source": "U.S. Navy records"
+      },
+      {
+        "date": "1945-12-05",
+        "event": "Flight 19 disappears",
+        "significance": "Five TBM Avenger torpedo bombers vanish during training flight; rescue plane also lost",
+        "source": "U.S. Navy investigation reports"
+      },
+      {
+        "date": "1948-01-30",
+        "event": "Star Tiger disappears",
+        "significance": "British South American Airways airliner vanishes with 31 people",
+        "source": "Aviation accident reports"
+      },
+      {
+        "date": "1949-01-17",
+        "event": "Star Ariel disappears",
+        "significance": "Sister ship to Star Tiger vanishes with 20 people",
+        "source": "Aviation accident reports"
+      },
+      {
+        "date": "1950-09-17",
+        "event": "E.V. Kellog article",
+        "significance": "First mainstream article connecting disappearances, in Miami Herald",
+        "source": "Miami Herald"
+      },
+      {
+        "date": "1964-02",
+        "event": "Vincent Gaddis coins term",
+        "significance": "First use of 'Bermuda Triangle' in Argosy magazine article",
+        "source": "Argosy magazine"
+      },
+      {
+        "date": "1974",
+        "event": "Berlitz book published",
+        "significance": "Charles Berlitz's 'The Bermuda Triangle' becomes bestseller, popularizing phenomenon",
+        "source": "Published book"
+      },
+      {
+        "date": "1975",
+        "event": "Larry Kusche debunking",
+        "significance": "Kusche publishes 'The Bermuda Triangle Mystery—Solved' with skeptical analysis",
+        "source": "Published book"
+      },
+      {
+        "date": "2013",
+        "event": "WWF statistical analysis",
+        "significance": "World Wildlife Fund finds no higher incident rate than other ocean regions",
+        "source": "WWF shipping lane safety study"
+      }
+    ],
+    "modern_era": "The Bermuda Triangle remains a cultural phenomenon despite scientific debunking. Modern GPS and communication technology have reduced incidents, but the area remains a heavily-trafficked maritime and aviation route. Media continues to feature the mystery in documentaries and entertainment."
+  },
+
+  "incidents": {
+    "statistics": {
+      "total_documented": 75,
+      "ships_lost": 50,
+      "aircraft_lost": 20,
+      "lives_lost": 1000,
+      "date_range": {
+        "earliest": "1492",
+        "latest": "2025"
+      },
+      "notes": "Exact numbers disputed. Many incidents have prosaic explanations when investigated thoroughly."
+    },
+    "notable": [
+      {
+        "id": "flight-19-1945",
+        "name": "Flight 19",
+        "date": {
+          "value": "1945-12-05",
+          "precision": "exact"
+        },
+        "type": "aviation",
+        "location": {
+          "description": "East of Florida coast",
+          "coordinates": {
+            "latitude": 26.0,
+            "longitude": -77.0,
+            "precision": "approximate"
+          }
+        },
+        "description": "Five TBM Avenger torpedo bombers (Flight 19) disappeared during a routine training mission from Fort Lauderdale Naval Air Station. The flight leader reported compass malfunctions and disorientation. Radio transmissions indicated the aircraft were lost. A PBM Mariner rescue seaplane sent to find them also vanished. All 14 crew members of Flight 19 and 13 crew of the rescue plane were lost. No wreckage was ever conclusively found.",
+        "casualties": 27,
+        "evidence": [
+          "Radio transmissions recorded",
+          "Navy investigation report",
+          "Contemporary newspaper coverage"
+        ],
+        "official_explanation": "Navigation error, aircraft ran out of fuel and crashed at sea",
+        "alternative_theories": [
+          "Compass anomalies caused by magnetic variations",
+          "Extraterrestrial abduction",
+          "Time portal",
+          "Methane gas explosion"
+        ],
+        "credibility": {
+          "rating": "high",
+          "factors": [
+            "Well-documented by U.S. Navy",
+            "Radio transmissions recorded",
+            "Multiple aircraft and crew lost",
+            "Investigation conducted"
+          ]
+        },
+        "sources": [
+          "U.S. Navy Investigation Report, 1946",
+          "Contemporary newspaper articles",
+          "McDonnell, M. (2014). Lost Patrol: Flight 19"
+        ],
+        "featured": true
+      },
+      {
+        "id": "uss-cyclops-1918",
+        "name": "USS Cyclops",
+        "date": {
+          "value": "1918-03",
+          "precision": "month"
+        },
+        "type": "maritime",
+        "location": {
+          "description": "En route from Barbados to Baltimore",
+          "coordinates": {
+            "latitude": 25.0,
+            "longitude": -70.0,
+            "precision": "approximate"
+          }
+        },
+        "description": "The USS Cyclops, a massive U.S. Navy collier ship, disappeared without a trace with 306 crew and passengers aboard. The ship departed Barbados on March 4, 1918, bound for Baltimore and was never seen again. No distress signal was sent. No wreckage was ever found. This remains the single largest loss of life in U.S. Navy history not related to combat.",
+        "casualties": 306,
+        "evidence": [
+          "Navy records of departure",
+          "No distress signal received",
+          "Extensive search conducted"
+        ],
+        "official_explanation": "Unknown - possibly structural failure, enemy attack, or storm",
+        "alternative_theories": [
+          "Sea monster attack",
+          "Paranormal disappearance",
+          "German U-boat (though none claimed credit)",
+          "Cargo shift causing capsize"
+        ],
+        "credibility": {
+          "rating": "high",
+          "factors": [
+            "Well-documented U.S. Navy vessel",
+            "Largest single loss in Navy history",
+            "No wreckage ever found",
+            "No distress signal"
+          ]
+        },
+        "sources": [
+          "U.S. Navy historical records",
+          "U.S. Naval Institute Proceedings"
+        ],
+        "featured": true
+      },
+      {
+        "id": "star-tiger-1948",
+        "name": "Star Tiger",
+        "date": {
+          "value": "1948-01-30",
+          "precision": "exact"
+        },
+        "type": "aviation",
+        "location": {
+          "description": "Between Santa Maria (Azores) and Bermuda",
+          "coordinates": {
+            "latitude": 30.0,
+            "longitude": -60.0,
+            "precision": "approximate"
+          }
+        },
+        "description": "British South American Airways Avro Tudor IV aircraft Star Tiger disappeared while flying from Santa Maria in the Azores to Bermuda. The aircraft sent routine position reports, then vanished. All 31 people aboard were lost. No wreckage was found despite extensive searches.",
+        "casualties": 31,
+        "evidence": [
+          "Radio position reports",
+          "Civil Aviation investigation",
+          "No distress signal"
+        ],
+        "official_explanation": "Unknown - investigation inconclusive",
+        "alternative_theories": [
+          "Instrument failure in poor weather",
+          "Fuel exhaustion",
+          "Structural failure",
+          "Paranormal causes"
+        ],
+        "credibility": {
+          "rating": "high",
+          "factors": [
+            "Official investigation conducted",
+            "Documented flight plan and communications",
+            "No wreckage found"
+          ]
+        },
+        "sources": [
+          "UK Ministry of Civil Aviation Report, 1948"
+        ],
+        "featured": true
+      },
+      {
+        "id": "star-ariel-1949",
+        "name": "Star Ariel",
+        "date": {
+          "value": "1949-01-17",
+          "precision": "exact"
+        },
+        "type": "aviation",
+        "location": {
+          "description": "Between Bermuda and Kingston, Jamaica",
+          "coordinates": {
+            "latitude": 25.0,
+            "longitude": -72.0,
+            "precision": "approximate"
+          }
+        },
+        "description": "Sister ship to Star Tiger, this Avro Tudor IV also disappeared without trace. Flying from Bermuda to Kingston, Jamaica, with 20 people aboard, the aircraft sent routine messages then vanished. No distress call, no wreckage found. The Tudor IV was subsequently withdrawn from service.",
+        "casualties": 20,
+        "evidence": [
+          "Radio communications",
+          "Investigation report",
+          "No wreckage recovered"
+        ],
+        "official_explanation": "Unknown - led to withdrawal of Tudor IV from passenger service",
+        "alternative_theories": [
+          "Structural weakness in Tudor IV design",
+          "Fuel management issue",
+          "Bermuda Triangle phenomenon"
+        ],
+        "credibility": {
+          "rating": "high",
+          "factors": [
+            "Second identical aircraft type lost",
+            "Led to grounding of aircraft model",
+            "Official investigation"
+          ]
+        },
+        "sources": [
+          "UK Ministry of Civil Aviation Report, 1949"
+        ],
+        "featured": true
+      },
+      {
+        "id": "marine-sulphur-queen-1963",
+        "name": "SS Marine Sulphur Queen",
+        "date": {
+          "value": "1963-02-04",
+          "precision": "exact"
+        },
+        "type": "maritime",
+        "location": {
+          "description": "Florida Straits",
+          "coordinates": {
+            "latitude": 25.0,
+            "longitude": -80.0,
+            "precision": "approximate"
+          }
+        },
+        "description": "T2 tanker carrying molten sulfur disappeared in good weather with 39 crew. No distress signal was sent. Coast Guard found debris but no bodies. Investigation revealed the ship was in poor condition and should not have been at sea.",
+        "casualties": 39,
+        "evidence": [
+          "Debris recovered",
+          "Coast Guard investigation",
+          "Ship maintenance records"
+        ],
+        "official_explanation": "Structural failure - ship broke apart at sea",
+        "alternative_theories": [
+          "Explosion from sulfur cargo",
+          "Hull failure due to poor maintenance"
+        ],
+        "credibility": {
+          "rating": "high",
+          "factors": [
+            "Coast Guard investigation",
+            "Documented poor ship condition",
+            "Debris found"
+          ]
+        },
+        "sources": [
+          "U.S. Coast Guard investigation report, 1963"
+        ],
+        "featured": false
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "id": "debris-fields",
+        "type": "wreckage",
+        "description": "Minimal debris found for many disappearances despite extensive searches",
+        "status": "documented",
+        "analysis": "Gulf Stream and deep ocean trenches make recovery difficult; lack of debris not necessarily anomalous"
+      },
+      {
+        "id": "black-boxes",
+        "type": "flight recorders",
+        "description": "Many aircraft lost before modern black boxes; recovered recorders show no anomalies",
+        "status": "documented",
+        "analysis": "No recovered flight data shows unexplained phenomena"
+      }
+    ],
+    "documentary": [
+      {
+        "id": "radio-transmissions",
+        "type": "audio recordings",
+        "description": "Recorded communications from Flight 19 and other incidents",
+        "status": "documented",
+        "analysis": "Show confusion and disorientation, consistent with navigation errors"
+      },
+      {
+        "id": "navy-investigation-reports",
+        "type": "official documents",
+        "description": "U.S. Navy investigations of Flight 19 and USS Cyclops",
+        "status": "public record",
+        "analysis": "Official conclusions cite probable causes, no paranormal explanations"
+      },
+      {
+        "id": "coast-guard-position",
+        "type": "official statement",
+        "description": "U.S. Coast Guard does not recognize Bermuda Triangle as particularly hazardous",
+        "status": "public statement",
+        "analysis": "Statistical analysis shows no higher incident rate than other ocean regions"
+      }
+    ],
+    "environmental": [
+      {
+        "id": "methane-hydrate-deposits",
+        "type": "geological",
+        "description": "Underwater methane deposits that could theoretically cause sudden sinking",
+        "status": "documented",
+        "analysis": "Theoretical mechanism exists but no confirmed incidents"
+      },
+      {
+        "id": "magnetic-anomalies",
+        "type": "geophysical",
+        "description": "Region where compass magnetic variation can be zero",
+        "status": "documented",
+        "analysis": "Can cause navigation errors if not properly compensated"
+      },
+      {
+        "id": "hexagonal-clouds",
+        "type": "meteorological",
+        "description": "Unusual cloud formations detected by satellite",
+        "status": "documented",
+        "analysis": "Microbursts and air bombs could cause sudden aircraft downing"
+      }
+    ]
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Interdimensional Portal",
+        "description": "The Triangle is a gateway to another dimension or time period",
+        "proponents": ["Charles Berlitz", "Various paranormal researchers"],
+        "evidence_cited": [
+          "Complete disappearances without trace",
+          "Reports of time anomalies",
+          "Electronic instrument failures"
+        ]
+      },
+      {
+        "name": "Extraterrestrial Activity",
+        "description": "UFOs or USOs (Unidentified Submerged Objects) abduct vessels",
+        "proponents": ["UFO researchers"],
+        "evidence_cited": [
+          "Lights in sky reported by witnesses",
+          "Alleged UFO sightings in area",
+          "Electromagnetic anomalies"
+        ]
+      },
+      {
+        "name": "Atlantis Technology",
+        "description": "Remnants of Atlantis technology cause interference",
+        "proponents": ["Edgar Cayce followers"],
+        "evidence_cited": [
+          "Alleged underwater structures (Bimini Road)",
+          "Cayce's predictions about Atlantis location",
+          "Energy fields from ancient technology"
+        ]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Methane Hydrate Eruptions",
+        "description": "Underwater methane gas releases reduce water density, causing ships to sink rapidly",
+        "proponents": ["Dr. Ben Clennell", "Various oceanographers"],
+        "evidence_cited": [
+          "Methane deposits documented in region",
+          "Laboratory experiments show effect on buoyancy",
+          "Could explain sudden sinking without distress"
+        ]
+      },
+      {
+        "name": "Rogue Waves",
+        "description": "Unusually large waves can overwhelm vessels without warning",
+        "proponents": ["Maritime scientists"],
+        "evidence_cited": [
+          "Rogue waves documented worldwide",
+          "Can reach 100+ feet in height",
+          "Consistent with deep water environment"
+        ]
+      },
+      {
+        "name": "Magnetic Anomalies",
+        "description": "Compass variations and magnetic anomalies cause navigation errors",
+        "proponents": ["Navigation experts"],
+        "evidence_cited": [
+          "Agonic line passes through region",
+          "Historical compass problems documented",
+          "Can cause disorientation if uncorrected"
+        ]
+      },
+      {
+        "name": "Gulf Stream Dispersion",
+        "description": "Powerful current quickly disperses wreckage, making recovery impossible",
+        "proponents": ["Oceanographers", "Coast Guard"],
+        "evidence_cited": [
+          "Gulf Stream flows 4-5 mph through region",
+          "Can carry debris hundreds of miles",
+          "Explains lack of wreckage recovery"
+        ]
+      },
+      {
+        "name": "Microbursts and Air Bombs",
+        "description": "Sudden downdrafts from hexagonal storm clouds can destroy aircraft",
+        "proponents": ["Meteorologists"],
+        "evidence_cited": [
+          "Satellite imagery of hexagonal cloud formations",
+          "Microbursts documented in region",
+          "Can produce downdrafts exceeding 100 mph"
+        ]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Statistical Fallacy",
+        "description": "No higher incident rate than other heavily-traveled ocean regions",
+        "proponents": ["Larry Kusche", "U.S. Coast Guard", "WWF"],
+        "evidence_cited": [
+          "Statistical analysis shows normal incident rate",
+          "One of world's busiest shipping lanes",
+          "Many 'disappearances' occurred outside triangle"
+        ]
+      },
+      {
+        "name": "Human Error",
+        "description": "Most incidents explained by navigation errors, mechanical failure, or pilot error",
+        "proponents": ["Aviation and maritime investigators"],
+        "evidence_cited": [
+          "Flight 19 radio transmissions show confusion",
+          "Poor weather conditions in many cases",
+          "Inadequate maintenance documented (Marine Sulphur Queen)"
+        ]
+      },
+      {
+        "name": "Confirmation Bias",
+        "description": "Cherry-picking data and ignoring incidents outside triangle or with explanations",
+        "proponents": ["Skeptical investigators"],
+        "evidence_cited": [
+          "Berlitz book contained factual errors",
+          "Many incidents had prosaic explanations",
+          "Incidents in good weather also occurred outside triangle"
+        ]
+      },
+      {
+        "name": "Exaggeration and Mythology",
+        "description": "Sensationalized reporting created urban legend from normal maritime losses",
+        "proponents": ["Benjamin Radford", "Joe Nickell"],
+        "evidence_cited": [
+          "Contemporary reports differ from later accounts",
+          "Media sensationalism in 1960s-70s",
+          "Economic incentive to perpetuate mystery"
+        ]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Caribbean maritime folklore of cursed waters",
+        "Legends of sea monsters in the region",
+        "Spanish colonial accounts of mysterious losses"
+      ],
+      "stories": [
+        "Christopher Columbus's compass anomalies (1492)",
+        "Tales of ghost ships in the region",
+        "Pilot reports of electronic fog"
+      ],
+      "beliefs": "Region has long been regarded with suspicion by mariners. Modern belief in paranormal aspects largely stems from 1960s-70s popular literature."
+    },
+    "popular_culture": {
+      "literature": [
+        "Berlitz, C. (1974). The Bermuda Triangle",
+        "Gaddis, V. (1965). Invisible Horizons",
+        "Kusche, L. (1975). The Bermuda Triangle Mystery—Solved",
+        "Quasar, G. (2003). Into the Bermuda Triangle"
+      ],
+      "film_tv": [
+        "The Bermuda Triangle (1978 film)",
+        "Lost (TV series, 2004-2010) - referenced",
+        "Numerous documentaries on History Channel, Discovery",
+        "The Triangle (2005 miniseries)"
+      ],
+      "games": [
+        "Bermuda Triangle (board game)",
+        "Video game references in multiple titles"
+      ],
+      "other": [
+        "Tourist attraction in Bermuda and Florida",
+        "Cruise ship excursions highlighting the mystery",
+        "Commercial products using Triangle branding"
+      ]
+    },
+    "media_impact": "Peak media attention in 1970s following Berlitz book. Remains popular topic for documentaries and speculative television. Skeptical literature has reduced public belief but mystery persists in popular imagination."
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Vincent Gaddis",
+        "affiliation": "Writer",
+        "contribution": "Coined the term 'Bermuda Triangle' and wrote foundational articles",
+        "period": "1960s"
+      },
+      {
+        "name": "Charles Berlitz",
+        "affiliation": "Author",
+        "contribution": "Wrote bestselling 'The Bermuda Triangle' (1974), popularizing the mystery",
+        "period": "1970s-1980s"
+      },
+      {
+        "name": "Larry Kusche",
+        "affiliation": "Arizona State University librarian, researcher",
+        "contribution": "Wrote debunking work 'The Bermuda Triangle Mystery—Solved' (1975)",
+        "period": "1970s"
+      },
+      {
+        "name": "Gian Quasar",
+        "affiliation": "Independent researcher",
+        "contribution": "Compiled database of incidents, wrote 'Into the Bermuda Triangle'",
+        "period": "2000s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "U.S. Coast Guard",
+        "focus": "Official position: does not recognize Triangle as particularly hazardous"
+      },
+      {
+        "name": "U.S. Navy",
+        "focus": "Historical investigations of Flight 19 and USS Cyclops"
+      },
+      {
+        "name": "Lloyd's of London",
+        "focus": "Insurance data shows no higher loss rate in region"
+      }
+    ],
+    "ongoing_studies": "Modern oceanographic and meteorological studies continue to examine natural phenomena in the region. GPS and satellite communication have greatly reduced navigation-related incidents."
+  },
+
+  "sources": [
+    {
+      "id": "berlitz-1974",
+      "type": "book",
+      "title": "The Bermuda Triangle",
+      "authors": ["Charles Berlitz"],
+      "publication": "Doubleday",
+      "date": "1974",
+      "isbn": "978-0385041140"
+    },
+    {
+      "id": "kusche-1975",
+      "type": "book",
+      "title": "The Bermuda Triangle Mystery—Solved",
+      "authors": ["Larry Kusche"],
+      "publication": "Prometheus Books",
+      "date": "1975",
+      "isbn": "978-0879759711"
+    },
+    {
+      "id": "gaddis-1964",
+      "type": "article",
+      "title": "The Deadly Bermuda Triangle",
+      "authors": ["Vincent Gaddis"],
+      "publication": "Argosy",
+      "date": "1964-02"
+    },
+    {
+      "id": "coast-guard-statement",
+      "type": "official_document",
+      "title": "U.S. Coast Guard Position on Bermuda Triangle",
+      "url": "https://www.history.navy.mil/",
+      "accessed": "2026-01-14"
+    }
+  ]
+}
